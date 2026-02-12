@@ -55,6 +55,41 @@
                 "icon": "https://www.accessgrid.com/icon.svg",
                 "pages": [
                   {
+                    "group": "Writing content",
+                    "pages": [
+                      {
+                        "page": "writing-content/text",
+                        "icon": "lucide:type"
+                      },
+                      {
+                        "page": "writing-content/images",
+                        "icon": "lucide:image"
+                      },
+                      {
+                        "page": "writing-content/code-blocks",
+                        "icon": "lucide:code"
+                      },
+                      {
+                        "group": "Components",
+                        "icon": "lucide:component",
+                        "pages": [
+                          "writing-content/components/accordian",
+                          "writing-content/components/callout",
+                          "writing-content/components/steps",
+                          "writing-content/components/tabs"
+                        ]
+                      },
+                      {
+                        "page": "writing-content/lists",
+                        "icon": "lucide:list"
+                      },
+                      {
+                        "page": "writing-content/tables",
+                        "icon": "lucide:table"
+                      }
+                    ]
+                  },
+                  {
                     "group": "Editing",
                     "expanded": false,
                     "tag": "New",
@@ -67,41 +102,6 @@
                         "tag": "Try it"
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "group": "Writing content",
-                "pages": [
-                  {
-                    "page": "writing-content/text",
-                    "icon": "lucide:type"
-                  },
-                  {
-                    "page": "writing-content/images",
-                    "icon": "lucide:image"
-                  },
-                  {
-                    "page": "writing-content/code-blocks",
-                    "icon": "lucide:code"
-                  },
-                  {
-                    "group": "Components",
-                    "icon": "lucide:component",
-                    "pages": [
-                      "writing-content/components/accordian",
-                      "writing-content/components/callout",
-                      "writing-content/components/steps",
-                      "writing-content/components/tabs"
-                    ]
-                  },
-                  {
-                    "page": "writing-content/lists",
-                    "icon": "lucide:list"
-                  },
-                  {
-                    "page": "writing-content/tables",
-                    "icon": "lucide:table"
                   }
                 ]
               }
