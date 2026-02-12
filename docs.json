@@ -2,7 +2,7 @@
   "title": "Banana",
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.png"
+    "dark": "/logo/dark.svg"
   },
   "home": "welcome",
   "navbar": {
@@ -43,7 +43,7 @@
           "label": "Documentation",
           "icon": "lucide:square-chart-gantt",
           "submenu": {
-            "groups": [
+            "pages": [
               {
                 "group": "Getting started",
                 "icon": "https://www.accessgrid.com/icon.svg",
