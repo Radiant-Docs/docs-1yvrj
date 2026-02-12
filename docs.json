@@ -4,7 +4,7 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "home": "welcome",
+  "home": "editor",
   "navbar": {
     "blur": true,
     "primary": {
@@ -45,15 +45,15 @@
           "submenu": {
             "pages": [
               {
+                "page": "quickstart",
+                "icon": "simple-icons:apple",
+                "tag": "Try it",
+                "title": "Quick Start Guide"
+              },
+              {
                 "group": "Getting started",
                 "icon": "https://www.accessgrid.com/icon.svg",
                 "pages": [
-                  {
-                    "page": "quickstart",
-                    "icon": "simple-icons:apple",
-                    "tag": "Try it",
-                    "title": "Quick Start Guide"
-                  },
                   {
                     "group": "Editing",
                     "expanded": false,
