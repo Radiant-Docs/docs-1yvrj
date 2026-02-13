@@ -102,6 +102,15 @@
                   {
                     "page": "writing-content/tables",
                     "icon": "lucide:table"
+                  },
+                  {
+                    "group": "Hello",
+                    "pages": [
+                      {
+                        "page": "hello-there",
+                        "title": "Hello there"
+                      }
+                    ]
                   }
                 ]
               }
