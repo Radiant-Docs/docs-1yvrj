@@ -89,7 +89,10 @@
                     "group": "Components",
                     "icon": "lucide:component",
                     "pages": [
-                      "writing-content/components/accordian",
+                      {
+                        "page": "writing-content/components/accordian",
+                        "title": "Accordion"
+                      },
                       "writing-content/components/callout",
                       "writing-content/components/steps",
                       "writing-content/components/tabs"
