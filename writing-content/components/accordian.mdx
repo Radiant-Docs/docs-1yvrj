@@ -1,169 +1,49 @@
 ---
-title: Accordian
+title: "Accordion"
 ---
 
-import Demo from "../../../../components/ui/demo/Demo.astro";
-import UiDisplay from "../../../../components/ui/demo/UiDisplay.astro";
-import CodeDemo from "../../../../components/ui/demo/CodeDemo.astro";
+The Accordion component allows you to create collapsible sections in your documentation. Users can expand and collapse content to focus on what they need, making it perfect for FAQs, detailed explanations, or organizing complex information.
 
-The Accordian component allows you to create collapsible sections in your documentation. Users can expand and collapse content to focus on what they need, making it perfect for FAQs, detailed explanations, or organizing complex information.
+<Accordion title="Single" defaultOpen>
 
+</Accordion>
+
+<AccordionGroup>
+  <Accordion title="Hello" defaultOpen>
+    Text
+  </Accordion>
+
+  <Accordion title="Bye" defaultOpen>
+    Bye
+  </Accordion>
+</AccordionGroup>
 
 ## Basic Usage
 
-<Demo>
-  <UiDisplay>
-    <Accordian title="Getting Started">
-      To get started with our framework, first install the package:
+<AccordionGroup>
+  <Accordion title="Accordion 1">
+    Hello
+  </Accordion>
 
-      ```bash
-      npm install my-framework
-      ```
+  <Accordion title="The Accordion component allows you to create collapsible sections in your documentation. The Accordion component allows you to create collapsible sections in your documentation">
 
-      Then import and initialize the framework in your project.
-    </Accordian>
+  </Accordion>
 
-    <Accordian title="Configuration">
-      Configure the framework by creating a config file:
+  <Accordion title="Accordion title">
 
-      ```javascript
-      // config.js
-      module.exports = {
-        theme: 'dark',
-        debug: process.env.NODE_ENV === 'development'
-      };
-      ```
-    </Accordian>
+  </Accordion>
 
-  </UiDisplay>
-  <CodeDemo>
-    ````mdx
-    <Accordian title="Getting Started">
-      To get started with our framework, first install the package:
+  <Accordion title="Accordion title">
 
-      ```bash
-      npm install my-framework
-      ```
+  </Accordion>
 
-      Then import and initialize the framework in your project.
-    </Accordian>
+  <Accordion title="Helo">
 
-    <Accordian title="Configuration">
-      Configure the framework by creating a config file:
+  </Accordion>
 
-      ```javascript
-      // config.js
-      module.exports = {
-        theme: 'dark',
-        debug: process.env.NODE_ENV === 'development'
-      };
-      ```
-    </Accordian>
-    ````
+  <Accordion title="Accordion title">
 
-  </CodeDemo>
-</Demo>
+  </Accordion>
+</AccordionGroup>
 
-## With Icons
-
-You can add icons to your accordions using the `icon` prop. Icons are sourced from Lucide and help make your accordions more visually distinctive.
-
-<Demo>
-  <UiDisplay>
-    <Accordian title="Installation" icon="download">
-      Install the package using your preferred package manager:
-
-      ```bash
-      npm install my-package
-      # or
-      yarn add my-package
-      ```
-    </Accordian>
-
-    <Accordian title="Configuration" icon="settings">
-      Configure your settings in the config file:
-
-      ```json
-      {
-        "theme": "dark",
-        "language": "en"
-      }
-      ```
-    </Accordian>
-
-    <Accordian title="Help" icon="help-circle">
-      Need assistance? Check our documentation or contact support.
-    </Accordian>
-
-  </UiDisplay>
-  <CodeDemo>
-    ````mdx
-    <Accordian title="Installation" icon="download">
-      Install the package using your preferred package manager:
-
-      ```bash
-      npm install my-package
-      # or
-      yarn add my-package
-      ```
-    </Accordian>
-
-    <Accordian title="Configuration" icon="settings">
-      Configure your settings in the config file:
-
-      ```json
-      {
-        "theme": "dark",
-        "language": "en"
-      }
-      ```
-    </Accordian>
-
-    <Accordian title="Help" icon="help-circle">
-      Need assistance? Check our documentation or contact support.
-    </Accordian>
-    ````
-
-  </CodeDemo>
-</Demo>
-
-## Accordian Groups
-
-Use `AccordianGroup` to create a set of accordions where only one can be open at a time. This is perfect for FAQs or mutually exclusive options.
-
-<Demo>
-  <UiDisplay>
-    <AccordianGroup>
-      <Accordian title="What is this framework?">
-        Our framework is a modern, lightweight solution for building web applications with excellent developer experience and performance.
-      </Accordian>
-
-      <Accordian title="How do I get started?">
-        Getting started is easy! Install the package, create a new project, and follow our quickstart guide in the documentation.
-      </Accordian>
-
-      <Accordian title="Is it free to use?">
-        Yes, our framework is open source and free to use for both personal and commercial projects under the MIT license.
-      </Accordian>
-    </AccordianGroup>
-
-  </UiDisplay>
-  <CodeDemo>
-    ````mdx
-    <AccordianGroup>
-      <Accordian title="What is this framework?">
-        Our framework is a modern, lightweight solution for building web applications with excellent developer experience and performance.
-      </Accordian>
-
-      <Accordian title="How do I get started?">
-        Getting started is easy! Install the package, create a new project, and follow our quickstart guide in the documentation.
-      </Accordian>
-
-      <Accordian title="Is it free to use?">
-        Yes, our framework is open source and free to use for both personal and commercial projects under the MIT license.
-      </Accordian>
-    </AccordianGroup>
-    ````
-
-  </CodeDemo>
-</Demo>
+sdvbsdjkvbsdjvkn
