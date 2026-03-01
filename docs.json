@@ -2,7 +2,7 @@
   "title": "Banana",
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.png"
+    "dark": "/logo/dark.svg"
   },
   "home": "editor",
   "navbar": {
