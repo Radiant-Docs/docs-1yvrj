@@ -1,8 +1,14 @@
 {
   "title": "Banana",
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.png"
+    "pill": "Docs",
+    "light": {
+      "image": "/logo/light.svg",
+      "padding": {
+        "top": 10,
+        "bottom": 10.5
+      }
+    }
   },
   "home": "editor",
   "navbar": {
