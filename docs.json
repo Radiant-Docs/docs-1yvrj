@@ -42,7 +42,7 @@
   },
   "navigation": {
     "menu": {
-      "type": "dropdown",
+      "type": "segmented",
       "label": "Select docs section",
       "items": [
         {
