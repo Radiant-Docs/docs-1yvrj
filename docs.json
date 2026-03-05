@@ -5,8 +5,8 @@
     "light": {
       "image": "/logo/light.svg",
       "padding": {
-        "top": 10,
-        "bottom": 10.5
+        "top": 13.5,
+        "bottom": 14
       }
     }
   },
@@ -42,7 +42,7 @@
   },
   "navigation": {
     "menu": {
-      "type": "segmented",
+      "type": "dropdown",
       "label": "Select docs section",
       "items": [
         {
