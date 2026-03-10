@@ -10,7 +10,7 @@
       }
     }
   },
-  "home": "editor",
+  "home": "writing-content/code-blocks",
   "navbar": {
     "blur": true,
     "primary": {
